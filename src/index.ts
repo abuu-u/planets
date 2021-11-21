@@ -80,7 +80,7 @@ const printTitle = makeTitlePrinter()
 // Создать функцию которая выводит список названий планет в порядке удаленности от Солнца
 
 const printPlanetsByDistance = (planets: Planet[]) => {
-  printTitle('Названии планет в порядке удаленности от Солнца:')
+  printTitle('Названия планет в порядке удаленности от Солнца:')
 
   const sortedPlanets = planets.sort((a, b) => a.distance - b.distance)
 
