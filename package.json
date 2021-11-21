@@ -4,7 +4,7 @@
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && xo --fix && rollup -c",
-    "run": "npm run build && node dist/app.js"
+    "start": "npm run build && node dist/app.js"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.6",
